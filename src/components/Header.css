@@ -1,0 +1,103 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2774f0;
+    padding: 10px 0px;
+    margin: auto;
+    width: 100%;
+    min-width: 920px;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+.header-logo {
+    margin-right: 10px;
+}
+
+.header-logoImage {
+    width: 75px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.header-logoExplore {
+    display: flex;
+}
+
+.header-logoExplore p {
+    font-size: 11px;
+    font-style: italic;
+    color: white;
+}
+
+.header-logoPlus {
+    color: #ffe500;
+    font-weight: 500;
+}
+
+.header-logoExplore img {
+    width: 10px;
+    margin-left: 2px;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    max-width: 40vw;
+    min-width: 250px;
+    border-radius: 2px;
+}
+
+.header-search input {
+    height: 36px;
+    width: 100%;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    padding: 0 16px;
+    border-radius: 2px;
+}
+
+.header-searchIcon {
+    padding: 0 10px;
+}
+
+.header-searchIcon > .MuiSvgIcon-root {
+    margin-top: 3px;
+    color: #2774f0;
+}
+
+.header-login {
+    margin: 0 50px;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    color: #2774f0;
+    background-color: white;
+    padding: 6px 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-more, .header-cart {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header-cart {
+    margin-left: 30px;
+}
+
+.header-cart > .MuiSvgIcon-root {
+    font-size: larger;
+    margin-right: 5px;
+}

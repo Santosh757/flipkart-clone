@@ -1,0 +1,15 @@
+.home-add {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.home-body {
+    padding: 0 10px;
+}
+
+.home-addImage {
+    width: 100%;
+    object-fit: contain;
+}

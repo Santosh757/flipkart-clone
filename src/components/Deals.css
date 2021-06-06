@@ -1,0 +1,35 @@
+.deals {
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.deals-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid lightgray;
+    background-color: #f1f3f6;
+}
+
+.deals-header h2 {
+    font-weight: normal;
+}
+
+.deals-headerButton {
+    background-color: #2874f0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+
+.deals-product {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}

@@ -1,0 +1,10 @@
+.catagories {
+    width: 100%;
+    box-shadow: 1px 1px 0 rgb(0 0 0 / 16%);
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    min-height: 112px;
+}
+
